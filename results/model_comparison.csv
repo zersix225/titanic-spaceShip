@@ -1,0 +1,7 @@
+model,cv_accuracy,std,f1,roc_auc,train_accuracy,overfit_gap_pts,fit_sec_per_fold,best_wins_folds,vs_best
+CatBoost,0.8121,0.0145,0.8149,0.9029,0.8624,5.0363,19.581,-,best
+LightGBM,0.8054,0.0103,0.8063,0.8976,0.9095,10.4037,0.1004,4/5,"close, not significant (p=0.080)"
+XGBoost,0.8004,0.0124,0.8,0.8929,0.9565,15.6056,0.1665,5/5,clearly lower (p=0.023)
+Random Forest,0.7993,0.0104,0.7928,0.8837,0.9997,20.0456,0.4679,5/5,clearly lower (p=0.013)
+Logistic Regression,0.7734,0.0068,0.7777,0.8518,0.7762,0.2839,0.0294,5/5,clearly lower (p=0.001)
+Dummy (baseline),0.5036,0.0,0.6699,0.5,0.5036,-0.0,0.0111,5/5,clearly lower (p=0.000)
