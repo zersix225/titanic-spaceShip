@@ -16,3 +16,7 @@ ipython_config.py
 .idea
 .venv
 .env
+
+# Python cache and macOS folder files
+__pycache__/
+.DS_Store
